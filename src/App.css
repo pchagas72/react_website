@@ -1,0 +1,29 @@
+*{
+    text-decoration: none;
+    color: rgb(205, 214, 244);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("./assets/wallpaper.png");
+
+    background-repeat: no-repeat;
+    color: rgb(205, 214, 244);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-color: #1e1e28;
+}
+
+.App_div {
+    width: 50%;
+    min-width: 500px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: fit-content;
+    background: rgba(30, 30, 46, 0.9);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 25px;
+}

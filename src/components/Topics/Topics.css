@@ -1,0 +1,28 @@
+.Topics_div{
+    width: 75%;
+    height: fit-content;
+    min-height: 300px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+}
+
+.Topic{
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    width: 100%;
+    height: fit-content;
+    color: rgb(205, 214, 244);
+    border-bottom: 2px rgb(205, 214, 244) solid;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
+.Topic p{
+    margin-left: 10px;
+}
+
+.Topic h2{
+    text-decoration: underline;
+}

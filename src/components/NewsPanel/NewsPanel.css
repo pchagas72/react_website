@@ -1,0 +1,21 @@
+.NewsPanel_div{
+    height: fit-content;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 55%;
+    border: 2px rgb(205, 214, 244) dotted;
+}
+
+.NewsPanel_div h2{
+    text-align: center;
+}
+
+.NewsPanel_div li{
+    list-style:square;
+    margin-bottom: 10px;
+}
+
+.NewsPanel_div a{
+    color: rgb(205, 214, 244);
+}

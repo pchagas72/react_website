@@ -1,0 +1,22 @@
+.Projects_div{
+    width: 50%;
+    min-width: 500px;
+    padding: 25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: rgba(30, 30, 46, 0.9);
+}
+
+.Projects_div h2{
+    text-align: center;
+}
+
+.Projects_div h3{
+    text-align: left;
+    text-decoration: underline;
+}
+
+.project_div{
+    border-bottom: 1px rgb(205, 214, 244) dotted;
+}

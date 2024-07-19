@@ -1,0 +1,25 @@
+.newTab_main_div{
+    display: flex;
+    left: 0px;
+    right: 0;
+    margin: auto;
+    width: 70%;
+    height: fit-content;
+    background: rgba(30, 30, 46, 0.9);
+}
+
+.newTab_main_div img{
+    height: 550px;
+}
+
+.newtab_div_text h1{
+    text-align: center;
+}
+
+.newtab_div_text h2{
+    text-align: center;
+}
+
+.newtab_div_text{
+    width: 100%;
+}

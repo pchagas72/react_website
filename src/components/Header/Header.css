@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    padding:15px;
+}
+
+.Header_div{
+    width: 50%;
+    min-width: 500px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: fit-content;
+    background: rgba(30, 30, 46, 0.9);
+    padding-left: 25px;
+    padding-right: 25px;
+}

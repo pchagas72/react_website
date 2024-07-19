@@ -1,0 +1,21 @@
+.separator_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    border-top: 2px rgb(205, 214, 244) solid;
+    border-bottom: 2px rgb(205, 214, 244) solid;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.separator_div img {
+    width: 88px;
+    height: 34px;
+    padding: 5px;
+    padding-left: 10px;
+}
