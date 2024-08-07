@@ -1,0 +1,15 @@
+.post{
+    border: 1px rgb(205, 214, 244) solid;
+    margin-bottom: 25px;
+}
+
+.post h3{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.content{
+    padding: 15px;
+}

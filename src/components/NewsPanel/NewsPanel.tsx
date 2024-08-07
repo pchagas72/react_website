@@ -3,8 +3,8 @@ import {Link} from "@tanstack/react-router"
 
 function NewsPanel(){
     const new_stuff = [
-        ["15 jul 2024", "Releasing my dotflies", "/projects"],
-        ["15 jul 2024","My opinion on dune messiah", "/projects"]
+        ["15 jul 2024", "Releasing my dotflies and this website's codebase", "/projects"],
+        ["06 jul 2024","First blog post", "/blog"]
     ]
     return(
         <div className="NewsPanel_div">

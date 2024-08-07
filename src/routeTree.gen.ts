@@ -12,8 +12,6 @@
 
 import { Route as rootRoute } from './routes/__root'
 import { Route as ProjectsImport } from './routes/projects'
-import { Route as NewtabImport } from './routes/newtab'
-import { Route as GalleryImport } from './routes/gallery'
 import { Route as BlogImport } from './routes/blog'
 import { Route as IndexImport } from './routes/index'
 
@@ -21,16 +19,6 @@ import { Route as IndexImport } from './routes/index'
 
 const ProjectsRoute = ProjectsImport.update({
   path: '/projects',
-  getParentRoute: () => rootRoute,
-} as any)
-
-const NewtabRoute = NewtabImport.update({
-  path: '/newtab',
-  getParentRoute: () => rootRoute,
-} as any)
-
-const GalleryRoute = GalleryImport.update({
-  path: '/gallery',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -62,20 +50,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogImport
       parentRoute: typeof rootRoute
     }
-    '/gallery': {
-      id: '/gallery'
-      path: '/gallery'
-      fullPath: '/gallery'
-      preLoaderRoute: typeof GalleryImport
-      parentRoute: typeof rootRoute
-    }
-    '/newtab': {
-      id: '/newtab'
-      path: '/newtab'
-      fullPath: '/newtab'
-      preLoaderRoute: typeof NewtabImport
-      parentRoute: typeof rootRoute
-    }
     '/projects': {
       id: '/projects'
       path: '/projects'
@@ -91,8 +65,6 @@ declare module '@tanstack/react-router' {
 export const routeTree = rootRoute.addChildren({
   IndexRoute,
   BlogRoute,
-  GalleryRoute,
-  NewtabRoute,
   ProjectsRoute,
 })
 
@@ -106,8 +78,6 @@ export const routeTree = rootRoute.addChildren({
       "children": [
         "/",
         "/blog",
-        "/gallery",
-        "/newtab",
         "/projects"
       ]
     },
@@ -116,12 +86,6 @@ export const routeTree = rootRoute.addChildren({
     },
     "/blog": {
       "filePath": "blog.tsx"
-    },
-    "/gallery": {
-      "filePath": "gallery.tsx"
-    },
-    "/newtab": {
-      "filePath": "newtab.tsx"
     },
     "/projects": {
       "filePath": "projects.tsx"

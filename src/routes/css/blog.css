@@ -1,0 +1,30 @@
+.Posts_div{
+    width: 50%;
+    min-width: 500px;
+    padding: 25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: rgba(30, 30, 46, 0.9);
+}
+
+.Posts_div h2{
+    text-align: center;
+}
+
+.Posts_div h3{
+    text-align: left;
+    text-decoration: underline;
+}
+
+.post{
+    border: 1px rgb(205, 214, 244) solid;
+    margin-bottom: 25px;
+}
+
+.post h3{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 15px;
+    padding-left: 20px;
+}
