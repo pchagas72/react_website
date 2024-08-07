@@ -1,9 +1,8 @@
 import { createFileRoute } from '@tanstack/react-router'
-import Header from '../components/Header/Header.tsx'
-import Introduction from '../components/Introduction/Introduction.tsx'
-import Separator from '../components/Separator/Separator.tsx'
-import Topics from '../components/Topics/Topics.tsx'
-import NewsPanel from '../components/NewsPanel/NewsPanel.tsx'
+import Introduction from '../components/Introduction/Introduction'
+import Separator from '../components/Separator/Separator'
+import Topics from '../components/Topics/Topics'
+import NewsPanel from '../components/NewsPanel/NewsPanel'
 import '../App.css'
 
 export const Route = createFileRoute('/')({
